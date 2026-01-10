@@ -1,0 +1,22 @@
+# Node
+node_modules/
+
+# Environment
+.env
+
+# Uploads (videos)
+backend/uploads/
+
+# Build folders
+dist/
+build/
+frontend/dist/
+
+# Logs
+logs/
+
+# OS / Editor
+.vSCode/
+.idea/
+.DS_Store
+Thumbs.db
