@@ -11,17 +11,18 @@ function App() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
-
+      
       <Route
         path="/dashboard"
         element={isAuthenticated() ? <Dashboard /> : <Navigate to="/login" />}
       />
-
+      
       <Route
         path="/upload"
         element={isAuthenticated() ? <Upload /> : <Navigate to="/login" />}
       />
-
+      
+      <Route path="/" element={<Navigate to="/login" />} />
       <Route path="*" element={<Navigate to="/login" />} />
     </Routes>
   );
