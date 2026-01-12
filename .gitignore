@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment files
+.env
+.env.*
+!*.example
+
+# Uploads & temp files
+backend/uploads/
+backend/temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
